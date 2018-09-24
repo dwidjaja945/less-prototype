@@ -1,0 +1,31 @@
+body {
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.712);
+  font-family: Tahoma;
+}
+.App {
+  text-align: center;
+}
+.hello {
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.712);
+  font-family: Tahoma;
+  padding: 1rem 0;
+}
+.info_container {
+  display: flex;
+  align-items: center;
+}
+.info_container p {
+  width: 80%;
+  color: rgba(0, 0, 0, 0.712);
+  margin: auto;
+  text-align: left;
+}
+.header {
+  background-color: rgba(49, 49, 226, 0.596);
+}
+.header p {
+  margin: 0;
+  padding: 3rem;
+}

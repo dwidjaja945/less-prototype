@@ -1,0 +1,43 @@
+@primary-color: rgba(0, 0, 0, 0.712);
+@background-color: rgba(49, 49, 226, 0.596);
+@font-family: Tahoma;
+
+body {
+  font-size: 30px;
+  color: @primary-color;
+  font-family: @font-family;
+}
+
+.center(){
+  display: flex;
+  align-items: center;
+}
+
+.App {
+  text-align: center;
+}
+
+.hello {
+  font-size: 40px;
+  color: @primary-color;
+  font-family: @font-family;
+  padding: 1rem 0;
+}
+
+.info_container {
+  .center();
+    p{
+      width: 80%;
+      color: @primary-color;  
+      margin: auto; 
+      text-align: left;
+    }
+}
+
+.header {
+  background-color: @background-color;
+  p {
+    margin: 0;
+    padding: 3rem;
+  }
+}
